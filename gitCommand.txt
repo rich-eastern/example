@@ -1,0 +1,19 @@
+git commands
+
+$ git init example
+	Initialized empty Git repository in C:/Users/liuri_000/gitrepo/example/.git/
+
+$ git remote add origin https://github.com/rich-eastern/example.git
+
+$ git log
+
+$ git add test.txt
+$ git commit -m 'add readme.md'
+$ git status
+$ git push -u origin master
+
+git remote -v  
+git remote rm testing
+	What the git remote rm command does is removing the entries about the remote repository from the .git/config file.
+	
+git clone https://github.com/URL-TO-REPO-HERE
