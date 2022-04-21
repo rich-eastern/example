@@ -39,3 +39,11 @@ git remote rm testing
 	What the git remote rm command does is removing the entries about the remote repository from the .git/config file.
 	
 git clone https://github.com/URL-TO-REPO-HERE
+
+
+
+--create new branch
+
+git branch newbranch
+git branch
+git checkout newbranch 
